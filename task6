@@ -1,0 +1,9 @@
+my_str = input('Введите слово латинскими буквами(все буквы должны быть маленькими: ')
+
+
+def int_func(arg):
+    arg = my_str.title()
+    return (arg)
+
+
+print(int_func(my_str))
