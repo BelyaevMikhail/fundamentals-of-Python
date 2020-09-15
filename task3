@@ -1,0 +1,12 @@
+def my_func():
+    list_arg = []
+    for i in range(0, 3):
+        element = int(input('Укажите аргумент в виде числа: '))
+        list_arg.append(element)
+    list_arg.remove(min(list_arg))
+    print('Сумма наибольших аргументов равна: ')
+
+    return list_arg[0] + list_arg[1]
+
+
+print(my_func())
