@@ -1,0 +1,13 @@
+a = int(input('Введите первое число: '))
+b = int(input('Введите второе число: '))
+
+
+def my_fun(arg_1, arg_2):
+    try:
+        arg_1 / arg_2
+        return (arg_1 / arg_2)
+    except ZeroDivisionError:
+        print('на ноль делить нельзя')
+
+
+print(my_fun(a, b))
