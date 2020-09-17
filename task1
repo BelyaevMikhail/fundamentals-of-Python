@@ -1,0 +1,11 @@
+from sys import argv
+
+ad, hour, rate, prize = argv
+
+
+def calculation(hour, rate, prize):
+    salary = int(hour) * int(rate) + int(hour) * int(rate) * float(prize)
+    return salary
+
+
+print(calculation(hour, rate, prize))
